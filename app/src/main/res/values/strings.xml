@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Word</string>
+    <string name="feur">Feur !</string>
+    <string name="header_title">Notes</string>
+</resources>
