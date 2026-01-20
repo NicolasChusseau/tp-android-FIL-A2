@@ -3,4 +3,5 @@
     <string name="feur">Feur !</string>
     <string name="valeur">Valeur: </string>
     <string name="plus1">+1</string>
+    <string name="by_author">De %s</string>
 </resources>

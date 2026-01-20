@@ -2,15 +2,11 @@ package moi.helloword.ui.composable
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -22,7 +18,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import moi.helloword.R
 
 @Composable
-fun Body(modifier: Modifier = Modifier) {
+fun MyCol(modifier: Modifier = Modifier) {
 
     var cpt by rememberSaveable { mutableIntStateOf(0) }
 
